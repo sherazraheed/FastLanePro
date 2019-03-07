@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import PINCache
 
 class ViewController: UIViewController {
 
