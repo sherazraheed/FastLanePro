@@ -25,7 +25,6 @@ platform :ios do
 gym(scheme: 'FastlanePro', project: "FastlanePro.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc')
 
 upload_to_testflight(
-  username: "imuneebali+4@gmail",
   app_identifier: "com.onebyte.OneLife",
   itc_provider: "/Applications/Xcode.app/Contents/Applications/Application\ Loader.app/Contents/itms/bin/iTMSTransporter -m provider -u imuneebali+4@gmail -p Muneeb69 -account_type itunes_connect -v off"
 )
