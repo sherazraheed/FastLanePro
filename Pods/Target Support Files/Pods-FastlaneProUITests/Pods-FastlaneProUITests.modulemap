@@ -1,6 +1,0 @@
-framework module Pods_FastlaneProUITests {
-  umbrella header "Pods-FastlaneProUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}

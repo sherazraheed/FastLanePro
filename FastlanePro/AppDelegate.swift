@@ -2,10 +2,12 @@
 //  AppDelegate.swift
 //  FastlanePro
 //
-//  Created by hst on 07/03/2019.
+//  Created by Onebyte on 3/8/19.
+//  Copyright © 2019 onebyte. All rights reserved.
 //
 
 import UIKit
+import Fabric
 import Crashlytics
 
 @UIApplicationMain

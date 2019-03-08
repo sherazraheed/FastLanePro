@@ -1,6 +1,0 @@
-framework module Pods_FastlanePro {
-  umbrella header "Pods-FastlanePro-umbrella.h"
-
-  export *
-  module * { export * }
-}

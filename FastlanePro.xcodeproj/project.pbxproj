@@ -7,177 +7,142 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0987AA112231201000DD3164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987AA102231201000DD3164 /* AppDelegate.swift */; };
-		0987AA132231201000DD3164 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987AA122231201000DD3164 /* ViewController.swift */; };
-		0987AA162231201000DD3164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0987AA142231201000DD3164 /* Main.storyboard */; };
-		0987AA182231201200DD3164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0987AA172231201200DD3164 /* Assets.xcassets */; };
-		0987AA1B2231201200DD3164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0987AA192231201200DD3164 /* LaunchScreen.storyboard */; };
-		0987AA262231201300DD3164 /* FastlaneProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987AA252231201300DD3164 /* FastlaneProTests.swift */; };
-		0987AA312231201300DD3164 /* FastlaneProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0987AA302231201300DD3164 /* FastlaneProUITests.swift */; };
-		2A37D01E5D202E4DC02FB546 /* Pods_FastlanePro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FD1EF94934260B0C0767EB0 /* Pods_FastlanePro.framework */; };
-		AA76D52BC5AED555F9039550 /* Pods_FastlaneProTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B73F59D06F9985C84572B51 /* Pods_FastlaneProTests.framework */; };
-		FE3B10B93B653A042E7E5F0C /* Pods_FastlaneProUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD206BA07500901F16E1EA4 /* Pods_FastlaneProUITests.framework */; };
+		99D6B0BB2232906C007C72CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6B0BA2232906C007C72CC /* AppDelegate.swift */; };
+		99D6B0BD2232906C007C72CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6B0BC2232906C007C72CC /* ViewController.swift */; };
+		99D6B0C02232906C007C72CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D6B0BE2232906C007C72CC /* Main.storyboard */; };
+		99D6B0C22232906E007C72CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99D6B0C12232906E007C72CC /* Assets.xcassets */; };
+		99D6B0C52232906E007C72CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99D6B0C32232906E007C72CC /* LaunchScreen.storyboard */; };
+		99D6B0D02232906E007C72CC /* FastlaneProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6B0CF2232906E007C72CC /* FastlaneProTests.swift */; };
+		99D6B0DB2232906E007C72CC /* FastlaneProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99D6B0DA2232906E007C72CC /* FastlaneProUITests.swift */; };
+		99D6B0EA223290CB007C72CC /* Fabric.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D6B0E8223290CB007C72CC /* Fabric.framework */; };
+		99D6B0EB223290CB007C72CC /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99D6B0E9223290CB007C72CC /* Crashlytics.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		0987AA222231201300DD3164 /* PBXContainerItemProxy */ = {
+		99D6B0CC2232906E007C72CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0987AA052231201000DD3164 /* Project object */;
+			containerPortal = 99D6B0AF2232906C007C72CC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0987AA0C2231201000DD3164;
+			remoteGlobalIDString = 99D6B0B62232906C007C72CC;
 			remoteInfo = FastlanePro;
 		};
-		0987AA2D2231201300DD3164 /* PBXContainerItemProxy */ = {
+		99D6B0D72232906E007C72CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 0987AA052231201000DD3164 /* Project object */;
+			containerPortal = 99D6B0AF2232906C007C72CC /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0987AA0C2231201000DD3164;
+			remoteGlobalIDString = 99D6B0B62232906C007C72CC;
 			remoteInfo = FastlanePro;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0987AA0D2231201000DD3164 /* FastlanePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlanePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0987AA102231201000DD3164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0987AA122231201000DD3164 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		0987AA152231201000DD3164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		0987AA172231201200DD3164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		0987AA1A2231201200DD3164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		0987AA1C2231201200DD3164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0987AA212231201300DD3164 /* FastlaneProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0987AA252231201300DD3164 /* FastlaneProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneProTests.swift; sourceTree = "<group>"; };
-		0987AA272231201300DD3164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0987AA2C2231201300DD3164 /* FastlaneProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0987AA302231201300DD3164 /* FastlaneProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneProUITests.swift; sourceTree = "<group>"; };
-		0987AA322231201300DD3164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4FD1EF94934260B0C0767EB0 /* Pods_FastlanePro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlanePro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53564CA7746B02A74622C92F /* Pods-FastlaneProUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneProUITests.release.xcconfig"; path = "Target Support Files/Pods-FastlaneProUITests/Pods-FastlaneProUITests.release.xcconfig"; sourceTree = "<group>"; };
-		5F65C8A438C9D5C86B07767A /* Pods-FastlanePro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlanePro.release.xcconfig"; path = "Target Support Files/Pods-FastlanePro/Pods-FastlanePro.release.xcconfig"; sourceTree = "<group>"; };
-		638127C56DC6317E51A35E23 /* Pods-FastlaneProTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneProTests.release.xcconfig"; path = "Target Support Files/Pods-FastlaneProTests/Pods-FastlaneProTests.release.xcconfig"; sourceTree = "<group>"; };
-		825B997DB04F7412CA903C06 /* Pods-FastlanePro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlanePro.debug.xcconfig"; path = "Target Support Files/Pods-FastlanePro/Pods-FastlanePro.debug.xcconfig"; sourceTree = "<group>"; };
-		8B73F59D06F9985C84572B51 /* Pods_FastlaneProTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneProTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9F963307B1D4F39C69E3A864 /* Pods-FastlaneProTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneProTests.debug.xcconfig"; path = "Target Support Files/Pods-FastlaneProTests/Pods-FastlaneProTests.debug.xcconfig"; sourceTree = "<group>"; };
-		AFD206BA07500901F16E1EA4 /* Pods_FastlaneProUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FastlaneProUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBEA3B3264E242ABF7A0FEDB /* Pods-FastlaneProUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FastlaneProUITests.debug.xcconfig"; path = "Target Support Files/Pods-FastlaneProUITests/Pods-FastlaneProUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		99D6B0B72232906C007C72CC /* FastlanePro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FastlanePro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D6B0BA2232906C007C72CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		99D6B0BC2232906C007C72CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		99D6B0BF2232906C007C72CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		99D6B0C12232906E007C72CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99D6B0C42232906E007C72CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		99D6B0C62232906E007C72CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D6B0CB2232906E007C72CC /* FastlaneProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D6B0CF2232906E007C72CC /* FastlaneProTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneProTests.swift; sourceTree = "<group>"; };
+		99D6B0D12232906E007C72CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D6B0D62232906E007C72CC /* FastlaneProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FastlaneProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		99D6B0DA2232906E007C72CC /* FastlaneProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastlaneProUITests.swift; sourceTree = "<group>"; };
+		99D6B0DC2232906E007C72CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99D6B0E8223290CB007C72CC /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
+		99D6B0E9223290CB007C72CC /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0987AA0A2231201000DD3164 /* Frameworks */ = {
+		99D6B0B42232906C007C72CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A37D01E5D202E4DC02FB546 /* Pods_FastlanePro.framework in Frameworks */,
+				99D6B0EB223290CB007C72CC /* Crashlytics.framework in Frameworks */,
+				99D6B0EA223290CB007C72CC /* Fabric.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0987AA1E2231201300DD3164 /* Frameworks */ = {
+		99D6B0C82232906E007C72CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA76D52BC5AED555F9039550 /* Pods_FastlaneProTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0987AA292231201300DD3164 /* Frameworks */ = {
+		99D6B0D32232906E007C72CC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE3B10B93B653A042E7E5F0C /* Pods_FastlaneProUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0987AA042231201000DD3164 = {
+		99D6B0AE2232906C007C72CC = {
 			isa = PBXGroup;
 			children = (
-				0987AA0F2231201000DD3164 /* FastlanePro */,
-				0987AA242231201300DD3164 /* FastlaneProTests */,
-				0987AA2F2231201300DD3164 /* FastlaneProUITests */,
-				0987AA0E2231201000DD3164 /* Products */,
-				92DC90F941C5F6BA21EAB0A4 /* Pods */,
-				778C09AD453D81CC19B687A2 /* Frameworks */,
+				99D6B0E9223290CB007C72CC /* Crashlytics.framework */,
+				99D6B0E8223290CB007C72CC /* Fabric.framework */,
+				99D6B0B92232906C007C72CC /* FastlanePro */,
+				99D6B0CE2232906E007C72CC /* FastlaneProTests */,
+				99D6B0D92232906E007C72CC /* FastlaneProUITests */,
+				99D6B0B82232906C007C72CC /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		0987AA0E2231201000DD3164 /* Products */ = {
+		99D6B0B82232906C007C72CC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0987AA0D2231201000DD3164 /* FastlanePro.app */,
-				0987AA212231201300DD3164 /* FastlaneProTests.xctest */,
-				0987AA2C2231201300DD3164 /* FastlaneProUITests.xctest */,
+				99D6B0B72232906C007C72CC /* FastlanePro.app */,
+				99D6B0CB2232906E007C72CC /* FastlaneProTests.xctest */,
+				99D6B0D62232906E007C72CC /* FastlaneProUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0987AA0F2231201000DD3164 /* FastlanePro */ = {
+		99D6B0B92232906C007C72CC /* FastlanePro */ = {
 			isa = PBXGroup;
 			children = (
-				0987AA102231201000DD3164 /* AppDelegate.swift */,
-				0987AA122231201000DD3164 /* ViewController.swift */,
-				0987AA142231201000DD3164 /* Main.storyboard */,
-				0987AA172231201200DD3164 /* Assets.xcassets */,
-				0987AA192231201200DD3164 /* LaunchScreen.storyboard */,
-				0987AA1C2231201200DD3164 /* Info.plist */,
+				99D6B0BA2232906C007C72CC /* AppDelegate.swift */,
+				99D6B0BC2232906C007C72CC /* ViewController.swift */,
+				99D6B0BE2232906C007C72CC /* Main.storyboard */,
+				99D6B0C12232906E007C72CC /* Assets.xcassets */,
+				99D6B0C32232906E007C72CC /* LaunchScreen.storyboard */,
+				99D6B0C62232906E007C72CC /* Info.plist */,
 			);
 			path = FastlanePro;
 			sourceTree = "<group>";
 		};
-		0987AA242231201300DD3164 /* FastlaneProTests */ = {
+		99D6B0CE2232906E007C72CC /* FastlaneProTests */ = {
 			isa = PBXGroup;
 			children = (
-				0987AA252231201300DD3164 /* FastlaneProTests.swift */,
-				0987AA272231201300DD3164 /* Info.plist */,
+				99D6B0CF2232906E007C72CC /* FastlaneProTests.swift */,
+				99D6B0D12232906E007C72CC /* Info.plist */,
 			);
 			path = FastlaneProTests;
 			sourceTree = "<group>";
 		};
-		0987AA2F2231201300DD3164 /* FastlaneProUITests */ = {
+		99D6B0D92232906E007C72CC /* FastlaneProUITests */ = {
 			isa = PBXGroup;
 			children = (
-				0987AA302231201300DD3164 /* FastlaneProUITests.swift */,
-				0987AA322231201300DD3164 /* Info.plist */,
+				99D6B0DA2232906E007C72CC /* FastlaneProUITests.swift */,
+				99D6B0DC2232906E007C72CC /* Info.plist */,
 			);
 			path = FastlaneProUITests;
-			sourceTree = "<group>";
-		};
-		778C09AD453D81CC19B687A2 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4FD1EF94934260B0C0767EB0 /* Pods_FastlanePro.framework */,
-				8B73F59D06F9985C84572B51 /* Pods_FastlaneProTests.framework */,
-				AFD206BA07500901F16E1EA4 /* Pods_FastlaneProUITests.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		92DC90F941C5F6BA21EAB0A4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				825B997DB04F7412CA903C06 /* Pods-FastlanePro.debug.xcconfig */,
-				5F65C8A438C9D5C86B07767A /* Pods-FastlanePro.release.xcconfig */,
-				9F963307B1D4F39C69E3A864 /* Pods-FastlaneProTests.debug.xcconfig */,
-				638127C56DC6317E51A35E23 /* Pods-FastlaneProTests.release.xcconfig */,
-				CBEA3B3264E242ABF7A0FEDB /* Pods-FastlaneProUITests.debug.xcconfig */,
-				53564CA7746B02A74622C92F /* Pods-FastlaneProUITests.release.xcconfig */,
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0987AA0C2231201000DD3164 /* FastlanePro */ = {
+		99D6B0B62232906C007C72CC /* FastlanePro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0987AA352231201300DD3164 /* Build configuration list for PBXNativeTarget "FastlanePro" */;
+			buildConfigurationList = 99D6B0DF2232906E007C72CC /* Build configuration list for PBXNativeTarget "FastlanePro" */;
 			buildPhases = (
-				2DA2BE2BDB1254182D1F98EA /* [CP] Check Pods Manifest.lock */,
-				0987AA092231201000DD3164 /* Sources */,
-				0987AA0A2231201000DD3164 /* Frameworks */,
-				0987AA0B2231201000DD3164 /* Resources */,
-				F6A60341C3AB7C7DC8265BEE /* [CP] Embed Pods Frameworks */,
-				090A292B2232747C00362579 /* ShellScript */,
+				99D6B0B32232906C007C72CC /* Sources */,
+				99D6B0B42232906C007C72CC /* Frameworks */,
+				99D6B0B52232906C007C72CC /* Resources */,
 			);
 			buildRules = (
 			);
@@ -185,70 +150,69 @@
 			);
 			name = FastlanePro;
 			productName = FastlanePro;
-			productReference = 0987AA0D2231201000DD3164 /* FastlanePro.app */;
+			productReference = 99D6B0B72232906C007C72CC /* FastlanePro.app */;
 			productType = "com.apple.product-type.application";
 		};
-		0987AA202231201300DD3164 /* FastlaneProTests */ = {
+		99D6B0CA2232906E007C72CC /* FastlaneProTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0987AA382231201300DD3164 /* Build configuration list for PBXNativeTarget "FastlaneProTests" */;
+			buildConfigurationList = 99D6B0E22232906E007C72CC /* Build configuration list for PBXNativeTarget "FastlaneProTests" */;
 			buildPhases = (
-				A633F5A6E8C796F850306119 /* [CP] Check Pods Manifest.lock */,
-				0987AA1D2231201300DD3164 /* Sources */,
-				0987AA1E2231201300DD3164 /* Frameworks */,
-				0987AA1F2231201300DD3164 /* Resources */,
+				99D6B0C72232906E007C72CC /* Sources */,
+				99D6B0C82232906E007C72CC /* Frameworks */,
+				99D6B0C92232906E007C72CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0987AA232231201300DD3164 /* PBXTargetDependency */,
+				99D6B0CD2232906E007C72CC /* PBXTargetDependency */,
 			);
 			name = FastlaneProTests;
 			productName = FastlaneProTests;
-			productReference = 0987AA212231201300DD3164 /* FastlaneProTests.xctest */;
+			productReference = 99D6B0CB2232906E007C72CC /* FastlaneProTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		0987AA2B2231201300DD3164 /* FastlaneProUITests */ = {
+		99D6B0D52232906E007C72CC /* FastlaneProUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0987AA3B2231201300DD3164 /* Build configuration list for PBXNativeTarget "FastlaneProUITests" */;
+			buildConfigurationList = 99D6B0E52232906E007C72CC /* Build configuration list for PBXNativeTarget "FastlaneProUITests" */;
 			buildPhases = (
-				3824449D05D9B2BB280362F0 /* [CP] Check Pods Manifest.lock */,
-				0987AA282231201300DD3164 /* Sources */,
-				0987AA292231201300DD3164 /* Frameworks */,
-				0987AA2A2231201300DD3164 /* Resources */,
+				99D6B0D22232906E007C72CC /* Sources */,
+				99D6B0D32232906E007C72CC /* Frameworks */,
+				99D6B0D42232906E007C72CC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0987AA2E2231201300DD3164 /* PBXTargetDependency */,
+				99D6B0D82232906E007C72CC /* PBXTargetDependency */,
 			);
 			name = FastlaneProUITests;
 			productName = FastlaneProUITests;
-			productReference = 0987AA2C2231201300DD3164 /* FastlaneProUITests.xctest */;
+			productReference = 99D6B0D62232906E007C72CC /* FastlaneProUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		0987AA052231201000DD3164 /* Project object */ = {
+		99D6B0AF2232906C007C72CC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
 				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = onebyte;
 				TargetAttributes = {
-					0987AA0C2231201000DD3164 = {
+					99D6B0B62232906C007C72CC = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					0987AA202231201300DD3164 = {
+					99D6B0CA2232906E007C72CC = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 0987AA0C2231201000DD3164;
+						TestTargetID = 99D6B0B62232906C007C72CC;
 					};
-					0987AA2B2231201300DD3164 = {
+					99D6B0D52232906E007C72CC = {
 						CreatedOnToolsVersion = 10.1;
-						TestTargetID = 0987AA0C2231201000DD3164;
+						TestTargetID = 99D6B0B62232906C007C72CC;
 					};
 				};
 			};
-			buildConfigurationList = 0987AA082231201000DD3164 /* Build configuration list for PBXProject "FastlanePro" */;
+			buildConfigurationList = 99D6B0B22232906C007C72CC /* Build configuration list for PBXProject "FastlanePro" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -256,37 +220,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 0987AA042231201000DD3164;
-			productRefGroup = 0987AA0E2231201000DD3164 /* Products */;
+			mainGroup = 99D6B0AE2232906C007C72CC;
+			productRefGroup = 99D6B0B82232906C007C72CC /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0987AA0C2231201000DD3164 /* FastlanePro */,
-				0987AA202231201300DD3164 /* FastlaneProTests */,
-				0987AA2B2231201300DD3164 /* FastlaneProUITests */,
+				99D6B0B62232906C007C72CC /* FastlanePro */,
+				99D6B0CA2232906E007C72CC /* FastlaneProTests */,
+				99D6B0D52232906E007C72CC /* FastlaneProUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0987AA0B2231201000DD3164 /* Resources */ = {
+		99D6B0B52232906C007C72CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0987AA1B2231201200DD3164 /* LaunchScreen.storyboard in Resources */,
-				0987AA182231201200DD3164 /* Assets.xcassets in Resources */,
-				0987AA162231201000DD3164 /* Main.storyboard in Resources */,
+				99D6B0C52232906E007C72CC /* LaunchScreen.storyboard in Resources */,
+				99D6B0C22232906E007C72CC /* Assets.xcassets in Resources */,
+				99D6B0C02232906C007C72CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0987AA1F2231201300DD3164 /* Resources */ = {
+		99D6B0C92232906E007C72CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0987AA2A2231201300DD3164 /* Resources */ = {
+		99D6B0D42232906E007C72CC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -295,168 +259,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		090A292B2232747C00362579 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Fabric/run\" b8f26af27cf81a1ccbd77396878ed642104e095b a96f1a78a366049fa916f6fe77578a730dfd27e6981d34030ef64e40254ad234\n";
-		};
-		2DA2BE2BDB1254182D1F98EA /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FastlanePro-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3824449D05D9B2BB280362F0 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FastlaneProUITests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A633F5A6E8C796F850306119 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-FastlaneProTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F6A60341C3AB7C7DC8265BEE /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FastlanePro/Pods-FastlanePro-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/PINCache/PINCache.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PINCache.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FastlanePro/Pods-FastlanePro-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		0987AA092231201000DD3164 /* Sources */ = {
+		99D6B0B32232906C007C72CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0987AA132231201000DD3164 /* ViewController.swift in Sources */,
-				0987AA112231201000DD3164 /* AppDelegate.swift in Sources */,
+				99D6B0BD2232906C007C72CC /* ViewController.swift in Sources */,
+				99D6B0BB2232906C007C72CC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0987AA1D2231201300DD3164 /* Sources */ = {
+		99D6B0C72232906E007C72CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0987AA262231201300DD3164 /* FastlaneProTests.swift in Sources */,
+				99D6B0D02232906E007C72CC /* FastlaneProTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		0987AA282231201300DD3164 /* Sources */ = {
+		99D6B0D22232906E007C72CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0987AA312231201300DD3164 /* FastlaneProUITests.swift in Sources */,
+				99D6B0DB2232906E007C72CC /* FastlaneProUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0987AA232231201300DD3164 /* PBXTargetDependency */ = {
+		99D6B0CD2232906E007C72CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0987AA0C2231201000DD3164 /* FastlanePro */;
-			targetProxy = 0987AA222231201300DD3164 /* PBXContainerItemProxy */;
+			target = 99D6B0B62232906C007C72CC /* FastlanePro */;
+			targetProxy = 99D6B0CC2232906E007C72CC /* PBXContainerItemProxy */;
 		};
-		0987AA2E2231201300DD3164 /* PBXTargetDependency */ = {
+		99D6B0D82232906E007C72CC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 0987AA0C2231201000DD3164 /* FastlanePro */;
-			targetProxy = 0987AA2D2231201300DD3164 /* PBXContainerItemProxy */;
+			target = 99D6B0B62232906C007C72CC /* FastlanePro */;
+			targetProxy = 99D6B0D72232906E007C72CC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		0987AA142231201000DD3164 /* Main.storyboard */ = {
+		99D6B0BE2232906C007C72CC /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0987AA152231201000DD3164 /* Base */,
+				99D6B0BF2232906C007C72CC /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		0987AA192231201200DD3164 /* LaunchScreen.storyboard */ = {
+		99D6B0C32232906E007C72CC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0987AA1A2231201200DD3164 /* Base */,
+				99D6B0C42232906E007C72CC /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -464,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		0987AA332231201300DD3164 /* Debug */ = {
+		99D6B0DD2232906E007C72CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -525,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		0987AA342231201300DD3164 /* Release */ = {
+		99D6B0DE2232906E007C72CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -580,14 +436,16 @@
 			};
 			name = Release;
 		};
-		0987AA362231201300DD3164 /* Debug */ = {
+		99D6B0E02232906E007C72CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 825B997DB04F7412CA903C06 /* Pods-FastlanePro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VKX3Q5UM4M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FastlanePro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -601,14 +459,17 @@
 			};
 			name = Debug;
 		};
-		0987AA372231201300DD3164 /* Release */ = {
+		99D6B0E12232906E007C72CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F65C8A438C9D5C86B07767A /* Pods-FastlanePro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = VKX3Q5UM4M;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = FastlanePro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -622,67 +483,58 @@
 			};
 			name = Release;
 		};
-		0987AA392231201300DD3164 /* Debug */ = {
+		99D6B0E32232906E007C72CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9F963307B1D4F39C69E3A864 /* Pods-FastlaneProTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = VKX3Q5UM4M;
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FastlaneProTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IBITWAY.FastlaneProTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onebyte.FastlaneProTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlanePro.app/FastlanePro";
 			};
 			name = Debug;
 		};
-		0987AA3A2231201300DD3164 /* Release */ = {
+		99D6B0E42232906E007C72CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 638127C56DC6317E51A35E23 /* Pods-FastlaneProTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = VKX3Q5UM4M;
+				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FastlaneProTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IBITWAY.FastlaneProTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onebyte.FastlaneProTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FastlanePro.app/FastlanePro";
 			};
 			name = Release;
 		};
-		0987AA3C2231201300DD3164 /* Debug */ = {
+		99D6B0E62232906E007C72CC /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBEA3B3264E242ABF7A0FEDB /* Pods-FastlaneProUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WRT49XJ773;
 				INFOPLIST_FILE = FastlaneProUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IBITWAY.FastlaneProUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onebyte.FastlaneProUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -690,20 +542,18 @@
 			};
 			name = Debug;
 		};
-		0987AA3D2231201300DD3164 /* Release */ = {
+		99D6B0E72232906E007C72CC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 53564CA7746B02A74622C92F /* Pods-FastlaneProUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WRT49XJ773;
 				INFOPLIST_FILE = FastlaneProUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.IBITWAY.FastlaneProUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onebyte.FastlaneProUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -714,43 +564,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0987AA082231201000DD3164 /* Build configuration list for PBXProject "FastlanePro" */ = {
+		99D6B0B22232906C007C72CC /* Build configuration list for PBXProject "FastlanePro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0987AA332231201300DD3164 /* Debug */,
-				0987AA342231201300DD3164 /* Release */,
+				99D6B0DD2232906E007C72CC /* Debug */,
+				99D6B0DE2232906E007C72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0987AA352231201300DD3164 /* Build configuration list for PBXNativeTarget "FastlanePro" */ = {
+		99D6B0DF2232906E007C72CC /* Build configuration list for PBXNativeTarget "FastlanePro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0987AA362231201300DD3164 /* Debug */,
-				0987AA372231201300DD3164 /* Release */,
+				99D6B0E02232906E007C72CC /* Debug */,
+				99D6B0E12232906E007C72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0987AA382231201300DD3164 /* Build configuration list for PBXNativeTarget "FastlaneProTests" */ = {
+		99D6B0E22232906E007C72CC /* Build configuration list for PBXNativeTarget "FastlaneProTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0987AA392231201300DD3164 /* Debug */,
-				0987AA3A2231201300DD3164 /* Release */,
+				99D6B0E32232906E007C72CC /* Debug */,
+				99D6B0E42232906E007C72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0987AA3B2231201300DD3164 /* Build configuration list for PBXNativeTarget "FastlaneProUITests" */ = {
+		99D6B0E52232906E007C72CC /* Build configuration list for PBXNativeTarget "FastlaneProUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0987AA3C2231201300DD3164 /* Debug */,
-				0987AA3D2231201300DD3164 /* Release */,
+				99D6B0E62232906E007C72CC /* Debug */,
+				99D6B0E72232906E007C72CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 0987AA052231201000DD3164 /* Project object */;
+	rootObject = 99D6B0AF2232906C007C72CC /* Project object */;
 }
