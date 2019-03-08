@@ -19,8 +19,9 @@ platform :ios do
   desc "Description of what the lane does"
   lane :custom_lane do
     # add actions here: https://docs.fastlane.tools/actions
-  sync_code_signing(type: "appstore")
+  sync_code_signing(type: "adhoc")
   build_app(scheme: "FastlanePro")
+git_url("https://github.com/sherazraheed/FastLanePro.git")
   upload_to_testflight
  
   end
