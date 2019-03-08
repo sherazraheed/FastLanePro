@@ -24,8 +24,8 @@ platform :ios do
 
 gym(scheme: 'FastlanePro', project: "FastlanePro.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc')
 
-    emails = values['roshanbaig17@gmail.com'] ? values[:test_email] : ['[email]'] # You can list more emails here
-    groups = values['roshanbaig17@gmail.com'] ? nil : nil # You can define groups on the web and reference them here
+    emails = values['[roshanbaig17@gmail.com]'] ? values[:test_email] : ['[email]'] # You can list more emails here
+    groups = nil ? nil : nil # You can define groups on the web and reference them here
 
     crashlytics(api_token: '625bae68c3112f09a74ca3a032a4c39248be5629',
              build_secret: '135ce89d62d3d2ddbc9bbcc6fa11c8ee08dc4d1953c1cad55f6ad73919fdb653',
