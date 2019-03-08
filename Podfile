@@ -6,7 +6,9 @@ target 'FastlanePro' do
   use_frameworks!
 
   pod 'PINCache'
-
+  pod 'Fabric'
+  pod 'Crashlytics'
+  
   # Pods for FastlanePro
 
   target 'FastlaneProTests' do
