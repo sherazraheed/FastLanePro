@@ -24,14 +24,7 @@ platform :ios do
 
 gym(scheme: 'FastlanePro', project: "FastlanePro.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc')
 
-#upload_to_testflight
-altool(
-        altool_username: ENV["imuneebali+4@gmail.com"],
-        altool_password: ENV["Muneeb69"],
-        altool_app_type: "ios",
-        altool_ipa_path: "/Users/humayun/Desktop/Archive/FastlanePro.ipa",
-        altool_output_format: "xml",
-)
+upload_to_testflight
  
   end
 
