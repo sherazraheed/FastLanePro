@@ -30,10 +30,9 @@ platform :ios do
 
 
 
-gym(scheme: 'FastlanePro', project: "FastlanePro.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: 'ad-hoc')
+gym(scheme: 'FastlanePro', project: "FastlanePro.xcodeproj", clean: true, silent: true, include_bitcode: false, export_method: 'app-store')
 #pilot(username: "imuneebali+4@gmail.com")
 upload_to_testflight
- 
   end
 
 end
