@@ -17,10 +17,12 @@ default_platform(:ios)
 
 platform :ios do
   before_all do
-    #ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = "sadg-mepy-zmmz-qnbg"
-ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
+    ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = "sadg-mepy-zmmz-qnbg"
+#ENV["FASTLANE_DONT_STORE_PASSWORD"] = "1"
     ENV["FASTLANE_USER"] = "imuneebali+4@gmail.com"
     ENV["FASTLANE_PASSWORD"] = "Muneeb69"
+    ENV["FASTLANE_ITC_TEAM_ID"] = "97396806"
+
   end
   desc "Description of what the lane does"
   lane :custom_lane do
